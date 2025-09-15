@@ -1,7 +1,7 @@
 {
-  "name": "hr-demo-test-advanced",
+  "name": "hr-demo-test",
   "private": true,
-  "version": "0.2.0",
+  "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,12 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@supabase/auth-helpers-nextjs": "^0.10.7",
     "@supabase/supabase-js": "^2.45.1",
+    "@supabase/ssr": "^0.3.0",
     "framer-motion": "^11.0.0",
     "lucide-react": "^0.428.0",
     "next": "14.2.5",
-    "next-safe-action": "^6.2.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "zod": "^3.23.8"
@@ -31,3 +30,6 @@
     "typescript": "^5.4.5"
   }
 }
+
+
+
